@@ -1,0 +1,28 @@
+Game Scene Configuration:
+
+Scene Name: MainGame
+
+Hierarchy:
+- GameManager (Singleton)
+- FactoryMap
+  - Team1_Spawns
+  - Team2_Spawns
+  - Environment
+    - Containers
+    - Industrial Structures
+    - Cover Points
+- Canvas (UI)
+  - HUD
+  - Scoreboard
+  - MissionDisplay
+- Lighting
+- Audio Manager
+
+Setup Instructions:
+1. Create a new scene called 'MainGame'
+2. Add GameManager prefab
+3. Add FactoryMap prefab
+4. Setup spawn points for both teams (6 each)
+5. Add UI Canvas with HUD elements
+6. Configure audio sources for weapons and environment
+7. Setup lighting for factory setting

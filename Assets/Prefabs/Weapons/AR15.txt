@@ -1,0 +1,22 @@
+Weapon Prefab: AR15
+
+Stats:
+- Weapon Name: AR-15 Assault Rifle
+- Damage: 25
+- Fire Rate: 0.1s (10 RPM)
+- Magazine Capacity: 30
+- Reload Time: 2.5s
+- Bullet Speed: 100 m/s
+- Range: 1000 units
+
+Components:
+- Weapon.cs (Script)
+- MuzzleFlash (ParticleSystem)
+- FireSound (AudioSource)
+- ReloadSound (AudioSource)
+- Animator (for fire/reload animations)
+
+Animations Required:
+- Fire (quick pose)
+- Reload (2.5s animation)
+- Idle
